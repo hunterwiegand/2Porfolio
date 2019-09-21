@@ -18,7 +18,7 @@ p {
     border-radius: 50%;
     color: rgba(255,255,255);
     transition: .5s;
-    font-family: 'Cedarville Cursive', cursive;
+    /* font-family: 'Cedarville Cursive', cursive; */
 }
 
 p:hover {
