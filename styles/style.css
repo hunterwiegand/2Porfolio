@@ -63,6 +63,64 @@ a:link {
       display: none;
   }
 
+  .star-parent {
+      height: 300px;
+      width: 100%;
+      /* background-color: pink; */
+      position: relative;
+  }
+
+  .shooting-star {
+    color: rgba(255,255,255,.1);
+    border-radius: 50%;
+    animation-name: myStar;
+    animation-duration: 1.5s;
+    width: 30px;
+    height: 30px;
+    visibility: hidden;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  .shooting-star2 {
+    color: rgba(255,255,255,.1);
+    border-radius: 50%;
+    animation-name: myStar-2;
+    animation-duration: 1.52s;
+    width: 25px;
+    height: 25px;
+    visibility: hidden;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  @keyframes myStar {
+      0% {background-color: rgba(255,255,255); 
+            visibility: visible;
+            bottom: 0px;
+            left: 0px;}
+      25% {background-color: rgba(0,255,255);}
+      50% {background-color: rgba(255,0,255);}
+      75% {background-color: rgba(255, 255, 0);}
+      100% {background-color:rgba(255,255,255);
+            bottom: 280px;
+            left: 100%;}
+  }
+
+  @keyframes myStar-2 {
+    0% {background-color: rgba(255,255,255); 
+          visibility: visible;
+          bottom: 0px;
+          left: 0px;}
+    25% {background-color: rgba(0,255,255);}
+    50% {background-color: rgba(255,0,255);}
+    75% {background-color: rgba(255,255,0);}
+    100% {background-color:rgba(255,255,255);
+          bottom: 280px;
+          left: 100%;}
+}
 
   @font-face {
     font-family: 'Cedarville Cursive';
@@ -101,4 +159,31 @@ a:link {
     .star {
         display: none;
     }
+
+    .shooting-star {
+        color: rgba(255,255,255,.1);
+        border-radius: 50%;
+        animation-name: myStar;
+        animation-duration: 1s;
+        width: 30px;
+        height: 30px;
+        visibility: hidden;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+      }
+    
+      .shooting-star2 {
+        color: rgba(255,255,255,.1);
+        border-radius: 50%;
+        animation-name: myStar-2;
+        animation-duration: 1.05s;
+        width: 25px;
+        height: 25px;
+        visibility: hidden;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+      }
+    
 }
