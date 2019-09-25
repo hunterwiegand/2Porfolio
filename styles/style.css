@@ -11,9 +11,9 @@ body {
     list-style-type: none;
     text-align: center;
     line-height: 75px;
-    background: rgba(255,255,255,.4);
+    background: rgba(255, 255, 255, .4);
     border-radius: 50%;
-    color: rgba(255,255,255);
+    color: rgba(255, 255, 255);
     transition: .5s;
     font-family: 'Cedarville Cursive', cursive;
     font-size: 18px;
@@ -21,10 +21,7 @@ body {
 
 .star:hover {
     background: #ffffff;
-    box-shadow: 0 0 10px rgba(255,255,255,1),
-                0 0 20px rgba(255,255,255,1),
-                0 0 30px rgba(255,255,255,1)
-
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1)
 }
 
 a:visited {
@@ -34,7 +31,6 @@ a:visited {
 a:link {
     color: #fff;
 }
-
 
 #logo_img {
     width: 350px;
@@ -49,29 +45,28 @@ a:link {
     list-style-type: none;
 }
 
-.desktop-nav > li{
+.desktop-nav>li {
     float: right;
     padding: 25px;
 }
 
-
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
+}
 
-  .custom-display {
-      display: none;
-  }
+.custom-display {
+    display: none;
+}
 
-  .star-parent {
-      height: 300px;
-      width: 100%;
-      /* background-color: pink; */
-      position: relative;
-  }
+.star-parent {
+    height: 300px;
+    width: 100%;
+    /* background-color: pink; */
+    position: relative;
+}
 
-  .shooting-star {
-    color: rgba(255,255,255,.1);
+.shooting-star {
+    color: rgba(255, 255, 255, .1);
     border-radius: 50%;
     animation-name: myStar;
     animation-duration: 1.5s;
@@ -81,10 +76,10 @@ a:link {
     position: absolute;
     bottom: 0px;
     left: 0px;
-  }
+}
 
-  .shooting-star2 {
-    color: rgba(255,255,255,.1);
+.shooting-star2 {
+    color: rgba(255, 255, 255, .1);
     border-radius: 50%;
     animation-name: myStar-2;
     animation-duration: 1.52s;
@@ -94,45 +89,128 @@ a:link {
     position: absolute;
     bottom: 0px;
     left: 0px;
-  }
-
-  @keyframes myStar {
-      0% {background-color: rgba(255,255,255); 
-            visibility: visible;
-            bottom: 0px;
-            left: 0px;}
-      25% {background-color: rgba(0,255,255);}
-      50% {background-color: rgba(255,0,255);}
-      75% {background-color: rgba(255, 255, 0);}
-      100% {background-color:rgba(255,255,255);
-            bottom: 280px;
-            left: 100%;}
-  }
-
-  @keyframes myStar-2 {
-    0% {background-color: rgba(255,255,255); 
-          visibility: visible;
-          bottom: 0px;
-          left: 0px;}
-    25% {background-color: rgba(0,255,255);}
-    50% {background-color: rgba(255,0,255);}
-    75% {background-color: rgba(255,255,0);}
-    100% {background-color:rgba(255,255,255);
-          bottom: 280px;
-          left: 100%;}
 }
 
-  @font-face {
+@keyframes myStar {
+    0% {
+        background-color: rgba(255, 255, 255);
+        visibility: visible;
+        bottom: 0px;
+        left: 0px;
+    }
+    25% {
+        background-color: rgba(0, 255, 255);
+    }
+    50% {
+        background-color: rgba(255, 0, 255);
+    }
+    75% {
+        background-color: rgb(194, 3, 153);
+    }
+    100% {
+        background-color: rgba(50, 0, 83);
+        bottom: 280px;
+        left: 100%;
+    }
+}
+
+@keyframes myStar-2 {
+    0% {
+        background-color: rgba(255, 255, 255);
+        visibility: visible;
+        bottom: 0px;
+        left: 0px;
+    }
+    25% {
+        background-color: rgba(0, 255, 255);
+    }
+    50% {
+        background-color: rgba(255, 0, 255);
+    }
+    75% {
+        background-color: rgba(194, 3, 153);
+    }
+    100% {
+        background-color: rgb(50, 0, 83);
+        bottom: 280px;
+        left: 100%;
+    }
+}
+
+@font-face {
     font-family: 'Cedarville Cursive';
-    src: url('fonts/cedarvillecursive-regular-webfont.woff2') format('woff2'),
-         url('fonts/cedarvillecursive-regular-webfont.woff') format('woff');
+    src: url('fonts/cedarvillecursive-regular-webfont.woff2') format('woff2'), url('fonts/cedarvillecursive-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.work-cards {
+    width: 100%;
+}
+
+.space-1 {
+    position: relative;
+    height: 320px;
+    width: 250px;
+}
+
+.space-2 {
+    position: relative;
+    height: 320px;
+    width: 250px;
+}
+
+.space-3 {
+    position: relative;
+    height: 320px;
+    width: 250px;
+}
+
+.space-4 {
+    position: relative;
+    height: 320px;
+    width: 250px;
+}
+
+.card {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transform: all 0.5s ease;
+}
+
+.front-card {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    backface-visibility: hidden;
+}
+
+.back-card {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+@media (min-width: 1600px) {
+    /* Make stars bigger */
+    .star {
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+    }
+}
 
 @media (max-width: 1024px) {
-
     .my-div {
         height: 75px;
     }
@@ -143,25 +221,20 @@ a:link {
         height: 200px;
         width: 200px;
     }
-
 }
 
 @media (max-width: 640px) {
-
-    .custom-display{
+    .custom-display {
         display: block;
     }
-
     .desktop-nav {
         display: none;
     }
-
     .star {
         display: none;
     }
-
     .shooting-star {
-        color: rgba(255,255,255,.1);
+        color: rgba(255, 255, 255, .1);
         border-radius: 50%;
         animation-name: myStar;
         animation-duration: 1s;
@@ -171,10 +244,9 @@ a:link {
         position: absolute;
         bottom: 0px;
         left: 0px;
-      }
-    
-      .shooting-star2 {
-        color: rgba(255,255,255,.1);
+    }
+    .shooting-star2 {
+        color: rgba(255, 255, 255, .1);
         border-radius: 50%;
         animation-name: myStar-2;
         animation-duration: 1.05s;
@@ -184,6 +256,5 @@ a:link {
         position: absolute;
         bottom: 0px;
         left: 0px;
-      }
-    
+    }
 }
