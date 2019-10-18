@@ -157,36 +157,28 @@ a:link {
     background-size: 100%;
 }
 
-.work-1-b {
-
-}
+.work-1-b {}
 
 .work-2-f {
     background-image: url("../styles/images/fft-img.png");
     background-size: 150%;
 }
 
-.work-2-b {
-    
-}
+.work-2-b {}
 
 .work-3-f {
     background-image: url("../styles/images/node-siri-img.gif");
     background-size: 150%;
 }
 
-.work-3-b {
-    
-}
+.work-3-b {}
 
 .work-4-f {
     background-image: url("../styles/images/mystic-spell-img.png");
     background-size: 270px 280px;
 }
 
-.work-4-b {
-    
-}
+.work-4-b {}
 
 .space-1 {
     position: relative;
@@ -288,6 +280,10 @@ a:link {
     }
 }
 
+.mobile-stars {
+    visibility: hidden;
+}
+
 @media (min-width: 1600px) {
     /* Make stars bigger */
     .star {
@@ -321,7 +317,6 @@ a:link {
     .star {
         display: none;
     }
-
     .star-parent {
         height: 120px;
     }
@@ -349,7 +344,6 @@ a:link {
         bottom: 0px;
         left: 0px;
     }
-
     @keyframes myStar {
         0% {
             background-color: rgba(255, 255, 255);
@@ -372,7 +366,6 @@ a:link {
             left: 100%;
         }
     }
-    
     @keyframes myStar-2 {
         0% {
             background-color: rgba(255, 255, 255);
@@ -395,5 +388,47 @@ a:link {
             left: 100%;
         }
     }
+    .work-cards {
+        display: none;
+    }
+    .mobile-stars {
+        visibility: visible;
+    }
+    .project-header {
+        font-size: 200%;
+        color: #fff;
+    }
+}
 
+.project-star {
+    position: relative;
+    height: 0px;
+    width: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid rgba(255, 255, 255);
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+    top: 50%;
+}
+
+.project-star:before {
+    position: absolute;
+    top: -45px;
+    left: -65px;
+    content: "";
+    border-bottom: 80px solid rgba(255, 255, 255);
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    transform: rotate(-35deg);
+}
+
+.project-star:after {
+    position: absolute;
+    top: 3px;
+    left: -105px;
+    content: "";
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid rgba(255, 255, 255);
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
 }
