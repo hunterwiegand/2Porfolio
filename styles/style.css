@@ -2,6 +2,14 @@ body {
     background-image: url("../styles/images/galaxy_img.jpg");
 }
 
+.prime-color {
+    color: #fff;
+}
+
+span {
+    font-weight: bold;
+}
+
 .star {
     margin: 0;
     padding: 0;
