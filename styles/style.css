@@ -157,28 +157,40 @@ a:link {
     background-size: 100%;
 }
 
-.work-1-b {}
+.work-1-b {
+    background-image: url("../styles/images/blobGod.jpg");
+    background-size: 100%;
+}
 
 .work-2-f {
     background-image: url("../styles/images/fft-img.png");
     background-size: 150%;
 }
 
-.work-2-b {}
+.work-2-b {
+    background-image: url("../styles/images/fft-img.png");
+    background-size: 150%;
+}
 
 .work-3-f {
     background-image: url("../styles/images/node-siri-img.gif");
     background-size: 150%;
 }
 
-.work-3-b {}
+.work-3-b {
+    background-image: url("../styles/images/node-siri-img.gif");
+    background-size: 150%;
+}
 
 .work-4-f {
     background-image: url("../styles/images/mystic-spell-img.png");
     background-size: 270px 280px;
 }
 
-.work-4-b {}
+.work-4-b {
+    background-image: url("../styles/images/mystic-spell-img.png");
+    background-size: 270px 280px;
+}
 
 .space-1 {
     position: relative;
@@ -431,4 +443,29 @@ a:link {
     border-bottom: 70px solid rgba(255, 255, 255);
     border-left: 100px solid transparent;
     transform: rotate(-70deg);
+}
+
+
+
+
+
+
+
+
+.btn {
+    background-color: #fff;
+    background-size: 75%;
+    margin: 20% 0 0 0;
+    animation: grow 3s;
+    font-size: 70%;
+    padding: 5%;
+}
+
+@keyframes grow {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
 }
