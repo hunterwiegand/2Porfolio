@@ -283,6 +283,10 @@ a:link {
     visibility: hidden;
 }
 
+.view-btn {
+    width: 100%;
+}
+
 /* Modal Styles */
 
 #myModalImg {
