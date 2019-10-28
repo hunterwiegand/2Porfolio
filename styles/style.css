@@ -2,6 +2,18 @@ body {
     background-image: url("../styles/images/galaxy_img.jpg");
 }
 
+.prime-color {
+    color: #fff;
+}
+
+.about-text {
+    font-size: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
 .star {
     margin: 0;
     padding: 0;
@@ -295,6 +307,17 @@ a:link {
 .mobile-stars {
     visibility: hidden;
 }
+
+/* Modal Styles */
+
+#myModalImg {
+    height: 75%;
+    width: 100%;
+}
+
+
+
+
 
 @media (min-width: 1600px) {
     /* Make stars bigger */
