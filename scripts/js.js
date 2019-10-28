@@ -52,7 +52,14 @@ $(document).on("click", ".modal-btn", function() {
             currentModal.img = "../styles/images/middle_earth.jpg";
             currentModal.insight = "This was a fun little project from my coding bootcamp. The challenge was create a turn based fighting app when no matter who you pick as a fighter, you have the possibliliy to win. I was able to pick up jQuery for this project and had a lot of fun using it.";
             currentModal.info = "It's time to fight for your rightfull land! choose your faction and fight for middle earth by facing off each of the other factions. Be cautious as to the order you fight your enemies, as you will get stronger with each attack you land.";
-            currentModal.tech = ["HTML", "CSS", "Bootstrap", "jQuery", "JavaScript"]
+            currentModal.tech = ["HTML", "CSS", "Bootstrap", "jQuery", "JavaScript"];
+            break;
+        case "foodApp":
+            currentModal.title = "Dine and Dash!";
+            currentModal.img = "../styles/images/food_app.jpg";
+            currentModal.insight = "This simple app was created to practice creating CRUD operations in sequelize, as well as using Heroku to host the program. I learned a lot about ORM and was able to use express-handlebars to dynamically update the DOM with the changing data being received from the mySQL database. I have plans to return to this project and really focus on the UI, since currently it is just using basic bootstrap for the format.";
+            currentModal.info = "I hope you’re ready to eat, because you just entered the finest restaurant in town! Simply Choose from the menu what food you’d like to eat, and hit the ‘EAT’ button to consume it! If you’d like to eat it again, just head over to the Prep section and have the cooks cook it right up. We also allow our customers to request any food they’d like. So feel free to add to our menu as well.";
+            currentModal.tech = ["Node.js", "mySQL", "Handlebars.js", "Express", "JavaScript", "Object-Relational-Mapping(ORM)", "Sequelize", "Heroku", "Bootstrap"];
     }
     
 
