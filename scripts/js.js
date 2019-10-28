@@ -47,6 +47,12 @@ $(document).on("click", ".modal-btn", function() {
             currentModal.info = "Can you learn the spell fast enough?! In this Hangman-like game you'll guess what the spell is by attempting to spell it out. You can only make 8 inccorect guesses, so be cautious with your guesses!";
             currentModal.tech = ["HTML", "CSS", "JavaScript"];
             break;
+        case "fightGame":
+            currentModal.title = "Battle for Middle Earth";
+            currentModal.img = "../styles/images/middle_earth.jpg";
+            currentModal.insight = "This was a fun little project from my coding bootcamp. The challenge was create a turn based fighting app when no matter who you pick as a fighter, you have the possibliliy to win. I was able to pick up jQuery for this project and had a lot of fun using it.";
+            currentModal.info = "It's time to fight for your rightfull land! choose your faction and fight for middle earth by facing off each of the other factions. Be cautious as to the order you fight your enemies, as you will get stronger with each attack you land.";
+            currentModal.tech = ["HTML", "CSS", "Bootstrap", "jQuery", "JavaScript"]
     }
     
 

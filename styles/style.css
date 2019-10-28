@@ -164,68 +164,34 @@ a:link {
     width: 100%;
 }
 
-.work-1-f {
+/* Set the img for the cards */
+.work-1 {
     background-image: url("../styles/images/blobGod.jpg");
     background-size: 100%;
 }
-
-.work-1-b {
-    background-image: url("../styles/images/blobGod.jpg");
-    background-size: 100%;
-}
-
-.work-2-f {
+.work-2 {
     background-image: url("../styles/images/fft-img.png");
     background-size: 150%;
 }
-
-.work-2-b {
-    background-image: url("../styles/images/fft-img.png");
-    background-size: 150%;
-}
-
-.work-3-f {
+.work-3 {
     background-image: url("../styles/images/node-siri-img.gif");
     background-size: 150%;
 }
-
-.work-3-b {
-    background-image: url("../styles/images/node-siri-img.gif");
-    background-size: 150%;
-}
-
-.work-4-f {
+.work-4 {
     background-image: url("../styles/images/mystic-spell-img.png");
     background-size: 270px 280px;
 }
-
-.work-4-b {
-    background-image: url("../styles/images/mystic-spell-img.png");
-    background-size: 270px 280px;
+.work-5 {
+    background-image: url("../styles/images/middle_earth.jpg");
+    background-size: 300px 300px;
 }
 
-.space-1 {
+
+.space {
     position: relative;
     height: 320px;
     width: 250px;
-}
-
-.space-2 {
-    position: relative;
-    height: 320px;
-    width: 250px;
-}
-
-.space-3 {
-    position: relative;
-    height: 320px;
-    width: 250px;
-}
-
-.space-4 {
-    position: relative;
-    height: 320px;
-    width: 250px;
+    margin-top: 10%;
 }
 
 .card {
@@ -254,6 +220,7 @@ a:link {
     transform: rotateY(180deg);
 }
 
+/* Set timing for card animations */
 .card-1 {
     animation: flip 2s;
 }
@@ -268,6 +235,10 @@ a:link {
 
 .card-4 {
     animation: flip 4s;
+}
+
+.card-5 {
+    animation: flip 2.5s;
 }
 
 @keyframes flip {
@@ -293,6 +264,10 @@ a:link {
 
 .space-4 {
     animation: grow 3s;
+}
+
+.space-5 {
+    animation: grow 1.24s;
 }
 
 @keyframes grow {
