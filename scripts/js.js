@@ -9,6 +9,10 @@ let currentModal = {
 // Listen for a more info btn to be clicked tp fire off this function
 $(document).on("click", ".modal-btn", function() {
 
+    console.log(currentModal.tech);
+    $("#myModalTech1").html("");
+    $("#myModalTech2").html("");
+
     // currentModal.title = $(this).attr("data-name");
 
     // console.log($(this).attr("data-name"));
@@ -32,23 +36,25 @@ $(document).on("click", ".modal-btn", function() {
         case "liriNode":
             currentModal.title = "Liri Node";
             currentModal.img = "../styles/images/node-siri-img.gif";
-            currentModal.info = "";
+            currentModal.insight = "This Liri Node application really helped me grasp node.js, and writting JS server side. Here I was able to modulize my code by seperating my axios calls from the code I wrote to handle the user I/O. I also learned the importance of properly using a .env file to hide api keys";
+            currentModal.info = "Liri Node App is a command line program used to take advantage of the information we can extract using the Spotify and OMBD API. Simply type 'concert-this', 'spotify-this-song', 'movie-this' followed my an artist, song, or movie and wacth as Liri Node will get you all the information you need!";
             currentModal.tech = ["Node.js", "Axios", "Spotify API", "OMBD API"]
             break;
         case "psychicGame":
             currentModal.title = "Psychic Game";
             currentModal.img = "../styles/images/mystic-spell-img.png";
-            currentModal.info = "";
+            currentModal.insight = "This Hangman-like game provided a fun way to practice my JavaScript skills and manipululation to the DOM. I'd like to go back to this simple application and see how I could add some new features and styles, as well as utilize more conventional programing styles (Like not using alert()!)";
+            currentModal.info = "Can you learn the spell fast enough?! In this Hangman-like game you'll guess what the spell is by attempting to spell it out. You can only make 8 inccorect guesses, so be cautious with your guesses!";
             currentModal.tech = ["HTML", "CSS", "JavaScript"];
             break;
     }
-
     
 
     $("#myModalTitle").html(currentModal.title);
     $("#myModalImg").attr("src", currentModal.img);
     $("#myModalInsight").html(currentModal.insight);
     $("#myModalInfo").html(currentModal.info);
+
 
     currentModal.tech.forEach(element => {
 
