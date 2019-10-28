@@ -174,7 +174,7 @@ a:link {
     background-size: 150%;
 }
 .work-3 {
-    background-image: url("../styles/images/node-siri-img.gif");
+    background-image: url("../styles/images/food_app.jpg");
     background-size: 150%;
 }
 .work-4 {
@@ -183,6 +183,10 @@ a:link {
 }
 .work-5 {
     background-image: url("../styles/images/middle_earth.jpg");
+    background-size: 300px 300px;
+}
+.work-6 {
+    background-image: url("../styles/images/node-siri-img.gif");
     background-size: 300px 300px;
 }
 
@@ -239,6 +243,9 @@ a:link {
 
 .card-5 {
     animation: flip 2.5s;
+}
+.card-6 {
+    animation: flip 3.15s
 }
 
 @keyframes flip {
