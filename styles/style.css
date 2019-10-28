@@ -215,7 +215,7 @@ a:link {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: green;
+    background-color: yellow;
     backface-visibility: hidden;
     transform: rotateY(180deg);
 }
@@ -400,12 +400,17 @@ a:link {
             left: 100%;
         }
     }
-    .work-cards {
+
+
+    .space {
+        width: 100%;
+    }
+    /* .work-cards {
         display: none;
     }
     .mobile-stars {
         visibility: visible;
-    }
+    } */
     .project-header {
         font-size: 200%;
         color: #fff;
@@ -444,7 +449,6 @@ a:link {
     border-left: 100px solid transparent;
     transform: rotate(-70deg);
 }
-
 
 
 
