@@ -9,6 +9,10 @@ let currentModal = {
 // Listen for a more info btn to be clicked tp fire off this function
 $(document).on("click", ".modal-btn", function() {
 
+    console.log(currentModal.tech);
+    $("#myModalTech1").html("");
+    $("#myModalTech2").html("");
+
     // currentModal.title = $(this).attr("data-name");
 
     // console.log($(this).attr("data-name"));
@@ -42,7 +46,6 @@ $(document).on("click", ".modal-btn", function() {
             currentModal.tech = ["HTML", "CSS", "JavaScript"];
             break;
     }
-
     
 
     $("#myModalTitle").html(currentModal.title);
