@@ -211,7 +211,6 @@ a:link {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: yellow;
     backface-visibility: hidden;
 }
 
@@ -219,7 +218,6 @@ a:link {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: yellow;
     backface-visibility: hidden;
     transform: rotateY(180deg);
 }
