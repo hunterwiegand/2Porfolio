@@ -60,6 +60,14 @@ $(document).on("click", ".modal-btn", function() {
             currentModal.insight = "This simple app was created to practice creating CRUD operations in sequelize, as well as using Heroku to host the program. I learned a lot about ORM and was able to use express-handlebars to dynamically update the DOM with the changing data being received from the mySQL database. I have plans to return to this project and really focus on the UI, since currently it is just using basic bootstrap for the format.";
             currentModal.info = "I hope you’re ready to eat, because you just entered the finest restaurant in town! Simply Choose from the menu what food you’d like to eat, and hit the ‘EAT’ button to consume it! If you’d like to eat it again, just head over to the Prep section and have the cooks cook it right up. We also allow our customers to request any food they’d like. So feel free to add to our menu as well.";
             currentModal.tech = ["Node.js", "mySQL", "Handlebars.js", "Express", "JavaScript", "Object-Relational-Mapping(ORM)", "Sequelize", "Heroku", "Bootstrap"];
+            break;
+        case "mtgCollect":
+            currentModal.title = "MTG-Collect!";
+            currentModal.img = "../styles/images/mtg-collect.png";
+            currentModal.insight = "MTG-Collect is built using the MERN Stack, and utilizes the passport.js to handle user auth. When the 2020 pandemic happened I noticed a lot of me and my roomates time was spent digging through our Magic cards trying to build new decks. Thus the idea for MTG-Collect was born, allowing us to spend less time searching for cards, and have more time to play the game!";
+            currentModal.info = "MTG-Collect is a website built to store you macgic card collection. This MERN stack project allows the user to make an account and begin building their online library of MTG cards. A deck building element is currently in development to allow users to build decks out of their existing card collection without having to physically find the cards.";
+            currentModal.tech = ["Node.js", "React.js", "Express", "MondgoDB", "Heroku", "Bootstrap", "Passport.js", "Magicthegathering.io API"];
+            break;
     }
     
 

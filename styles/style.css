@@ -149,6 +149,10 @@ a:link {
     }
 }
 
+.contact {
+    background-color: black;
+}
+
 @font-face {
     font-family: 'Cedarville Cursive';
     src: url('fonts/cedarvillecursive-regular-webfont.woff2') format('woff2'), url('fonts/cedarvillecursive-regular-webfont.woff') format('woff');
@@ -156,9 +160,9 @@ a:link {
     font-style: normal;
 }
 
-.card:hover {
+/* .card:hover {
     transform: rotateY(180deg);
-}
+} */
 
 .work-cards {
     width: 100%;
@@ -174,7 +178,7 @@ a:link {
     background-size: 150%;
 }
 .work-3 {
-    background-image: url("../styles/images/food_app.jpg");
+    background-image: url("../styles/images/cardBack.png");
     background-size: 150%;
 }
 .work-4 {
@@ -187,6 +191,11 @@ a:link {
 }
 .work-6 {
     background-image: url("../styles/images/node-siri-img.gif");
+    background-size: 300px 300px;
+}
+
+.work-7 {
+    background-image: url("../styles/images/food_app.jpg");
     background-size: 300px 300px;
 }
 
@@ -246,6 +255,10 @@ a:link {
     animation: flip 3.15s
 }
 
+.card-7 {
+    animation: flip 3.75s;
+}
+
 @keyframes flip {
     from {
         transform: 0;
@@ -273,6 +286,14 @@ a:link {
 
 .space-5 {
     animation: grow 1.24s;
+}
+
+.space-6 {
+    animation: grow 1.75s;
+}
+
+.space-7 {
+    animation: grow 2.5s;
 }
 
 @keyframes grow {
